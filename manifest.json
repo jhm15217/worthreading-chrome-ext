@@ -1,6 +1,6 @@
 {
   "name": "Worthreading",
-  "version": "1.0",
+  "version": "1.0.1",
   "manifest_version": 2,
   "description": "Extension.",
   "browser_action": {
