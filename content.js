@@ -1,6 +1,7 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
   chrome.tabs.executeScript(null, {
-    code: "chrome.extension.sendRequest({selection: window.getSelection().toString(), url: document.URL});"});
+    code: "chrome.extension.sendRequest({selection: window.getSelection().toString() || 'Insert message', url: document.URL});"
+  });
 }); 
 
 // function fakePost(text, link) {   
